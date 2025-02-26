@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container #contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+}
+.container #contactForm > button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container #contactForm > input {
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+}
+.container #contactList {
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.container #contactList button[class="delete-btn"] {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 5px;
+
+}
+
