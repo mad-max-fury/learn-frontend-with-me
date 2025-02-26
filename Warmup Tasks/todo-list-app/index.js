@@ -2,6 +2,7 @@
 const taskInput = document.getElementById("taskInput");
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
+// sdsdgsd wdgwdgw
 // 2. Get the user input
 addTaskBtn.addEventListener("click", (e) => {
   const taskText = taskInput.value;
